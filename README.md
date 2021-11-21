@@ -1,4 +1,4 @@
-# Bicubic-interpolation
+# bicubic-interpolation
 This repository is for simple implementation of 'Bicubic-interpolation for images' (Python3).
 
 ## Table of contents
