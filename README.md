@@ -35,15 +35,37 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   &emsp;&emsp;↑ Output image (512x512)
 
 ## Requirement
-  * Python 3.5.2 or more - `$ python --version` or `$ python3 --version`
-  * numpy and opencv modules `$ pip3 freeze -r requirements.txt`
+1. Minimun Python 3.5.2 installed, check in your cmd/terimal.
+  ```
+  $ python --version
+  ```
+  &emsp;&emsp;or
+  ```
+  $ python3 --version
+  ```
+
+2. numpy and opencv libraries installed.
+  ```
+  $ pip3 install numpy opencv-python
+  ```
+  &emsp;&emsp;or
+  ```
+  $ pip3 freeze -r requirements.txt
+  ```
 
 ## Installation
-`$ git clone https://github.com/Kel-1-Cabang-GitHub/bicubic-interpolation.git`
+```
+$ git clone https://github.com/Kel-1-Cabang-GitHub/bicubic-interpolation.git`
+```
 
 ## Usage
-  1. `$ python src\bicubic.py`
-  2. `$ python3 src\bicubic.py`
+```
+$ python src\bicubic.py
+```
+or
+```
+$ python3 src\bicubic.py
+```
 
 ## Reference
   1. R. Keys, "Cubic convolution interpolation for digital image processing," in IEEE Transactions on Acoustics, Speech, and Signal Processing, vol. 29, no. 6, pp. 1153-1160, December 1981. URL: <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1163711&isnumber=26156>
