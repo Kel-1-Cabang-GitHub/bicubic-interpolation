@@ -1,5 +1,5 @@
 # bicubic-interpolation
-This repository is for simple implementation of 'Bicubic-interpolation for images' (Python3).
+This repository is for simple implementation of 'Bicubic-interpolation for images' (`Python3`).
 
 ## Table of contents
   * [Formulation](#Formulation)
@@ -35,7 +35,7 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   &emsp;&emsp;↑ Output image (512x512)
 
 ## Requirement
-1. Minimun Python 3.5.2 installed, check in your cmd/terimal.
+1. Minimun Python `3.5.2` installed, check in your cmd/terimal.
     ```
     $ python --version
     ```
@@ -44,7 +44,7 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
     $ python3 --version
     ```
 
-2. numpy and opencv libraries installed.
+2. `numpy` and `opencv` libraries installed.
     ```
     $ pip3 install numpy opencv-python
     ```
