@@ -1,0 +1,12 @@
+### PYTHON ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+env/
+venv/
+
+### MISC ###
+temp/
