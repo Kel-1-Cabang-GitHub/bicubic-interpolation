@@ -36,22 +36,22 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
 
 ## Requirement
 1. Minimun Python 3.5.2 installed, check in your cmd/terimal.
-  ```
-  $ python --version
-  ```
-  &emsp;&emsp;or
-  ```
-  $ python3 --version
-  ```
+    ```
+    $ python --version
+    ```
+    or
+    ```
+    $ python3 --version
+    ```
 
 2. numpy and opencv libraries installed.
-  ```
-  $ pip3 install numpy opencv-python
-  ```
-  &emsp;&emsp;or
-  ```
-  $ pip3 freeze -r requirements.txt
-  ```
+    ```
+    $ pip3 install numpy opencv-python
+    ```
+    or
+    ```
+    $ pip3 freeze -r requirements.txt
+    ```
 
 ## Installation
 ```
