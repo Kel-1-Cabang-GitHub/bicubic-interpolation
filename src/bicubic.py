@@ -1,7 +1,7 @@
 import math
 import sys
 import time
-
+import os
 import cv2
 import numpy as np
 
@@ -99,7 +99,8 @@ def bicubic(img, ratio, a):
 
 
 # Read image
-img = cv2.imread('img\\butterfly.png')
+photoName = 'butterfly.png'
+img = cv2.imread('img\\'+photoName)
 
 # Scale factor
 ratio = 2
@@ -108,4 +109,6 @@ a = -1/2
 
 dst = bicubic(img, ratio, a)
 print('Completed!')
-cv2.imwrite('img\\bicubic_butterfly.png', dst)
+splitText = os.path.splitext(photoName)[0]
+ext = os.path.splitext(photoName)[1]
+cv2.imwrite('img\\'+splitText+'_Bicubic'+ ext , dst)
