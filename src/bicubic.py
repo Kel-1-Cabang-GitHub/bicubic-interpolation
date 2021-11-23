@@ -1,7 +1,8 @@
 import math
+import os
 import sys
 import time
-import os
+
 import cv2
 import numpy as np
 
@@ -111,4 +112,4 @@ dst = bicubic(img, ratio, a)
 print('Completed!')
 splitText = os.path.splitext(photoName)[0]
 ext = os.path.splitext(photoName)[1]
-cv2.imwrite('img\\'+splitText+'_Bicubic'+ ext , dst)
+cv2.imwrite('img\\'+splitText+'_Bicubic' + ext, dst)
